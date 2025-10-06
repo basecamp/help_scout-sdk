@@ -11,3 +11,4 @@ module HelpScout
     end
   end
 end
+

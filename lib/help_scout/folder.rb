@@ -8,7 +8,7 @@ module HelpScout
       private
 
       def base_path
-        'mailboxes/%<MAILBOX_ID>/folders/'
+        'mailboxes/%<MAILBOX_ID>/folders'
       end
 
       def list_path(mailbox_id)
