@@ -31,7 +31,7 @@ module HelpScout
       def build_connection
         Faraday.new(url: BASE_URL) do |conn|
           conn.options.timeout = 30
-          conn.options.open_timeout = 10
+          conn.options.open_timeout = 30
           conn.request :json
           conn.response(:json, content_type: /\bjson$/)
           conn.adapter(Faraday.default_adapter)
