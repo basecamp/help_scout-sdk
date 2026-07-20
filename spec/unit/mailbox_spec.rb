@@ -13,7 +13,7 @@ RSpec.describe HelpScout::Mailbox do
     let(:mailbox) { JSON.parse(file_fixture('mailbox/get.json')).deep_transform_keys { |k| k.underscore.to_sym } }
 
     before do
-      stub_request(:get, 'https://api.helpscout.net/v2/mailboxes/1/folders/')
+      stub_request(:get, 'https://api.helpscout.net/v2/mailboxes/1/folders')
         .to_return(body: body, headers: { 'Content-Type' => 'application/json' })
     end
 
