@@ -8,6 +8,13 @@ Breaking Changes:
   However, Faraday does not support Ruby 2.x on this version.
     ([#30](https://github.com/taxjar/help_scout-sdk/pull/30))
 
+### 2.0.1 / 2020-12-15
+
+Enhancements:
+
+* Adds support for passing params to `list` requests (Jorge Manrubia, [#19](https://github.com/taxjar/help_scout-sdk/pull/19))
+* Adds support for updating customer emails (Jorge Manrubia, [#19](https://github.com/taxjar/help_scout-sdk/pull/19)) 
+
 ### 2.0.0 / 2019-07-19
 
 Breaking Changes:
