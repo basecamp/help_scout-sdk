@@ -1,0 +1,19 @@
+CHANGELOG.md
+  s_c4dfb4e93ecb51::t_c058e04bc643d5 11-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "c72bd43eef4ef91b36170a560a6a4ce552717f87",
+  "prompts": {},
+  "sessions": {
+    "s_c4dfb4e93ecb51": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e85fd3f6-b300-456a-828e-f446ecf3fa34",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Jeremy Daer <jeremy@37signals.com>"
+    }
+  }
+}
