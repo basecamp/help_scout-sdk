@@ -1,0 +1,25 @@
+spec/unit/mailbox_spec.rb
+  s_c4dfb4e93ecb51::t_80fa82327a697d 16
+spec/unit/folder_spec.rb
+  s_c4dfb4e93ecb51::t_ea7c2e4078bda6 6
+spec/cassettes/HelpScout_Folder/_list/returns_an_Array_of_HelpScout_Folder_objects.yml
+  s_c4dfb4e93ecb51::t_560c942b6adc98 46
+spec/cassettes/HelpScout_Mailbox/_folders/returns_an_Array_of_Folders.yml
+  s_c4dfb4e93ecb51::t_b4d120be5f33f9 100
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "303d25acaec4813b4488e268cf2a0bfa9899f083",
+  "prompts": {},
+  "sessions": {
+    "s_c4dfb4e93ecb51": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e85fd3f6-b300-456a-828e-f446ecf3fa34",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Jeremy Daer <jeremy@37signals.com>"
+    }
+  }
+}
