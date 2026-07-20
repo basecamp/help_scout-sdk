@@ -97,7 +97,7 @@ http_interactions:
   recorded_at: Sun, 02 Jun 2019 13:47:35 GMT
 - request:
     method: get
-    uri: https://api.helpscout.net/v2/mailboxes/<TEST_MAILBOX_ID>/folders/
+    uri: https://api.helpscout.net/v2/mailboxes/<TEST_MAILBOX_ID>/folders
     body:
       encoding: US-ASCII
       string: ''
