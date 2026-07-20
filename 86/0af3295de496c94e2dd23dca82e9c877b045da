@@ -1,0 +1,19 @@
+spec/unit/api_spec.rb
+  s_c4dfb4e93ecb51::t_b642f9c0b8d997 1-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "860af3295de496c94e2dd23dca82e9c877b045da",
+  "prompts": {},
+  "sessions": {
+    "s_c4dfb4e93ecb51": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e85fd3f6-b300-456a-828e-f446ecf3fa34",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Jeremy Daer <jeremy@37signals.com>"
+    }
+  }
+}
