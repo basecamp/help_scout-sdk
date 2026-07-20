@@ -6,7 +6,14 @@ module HelpScout
     class NotAuthorized < StandardError; end
     class NotFound < StandardError; end
     class InternalError < StandardError; end
-    class ThrottleLimitReached < StandardError; end
+    class ThrottleLimitReached < StandardError
+      attr_reader :retry_after
+
+      def initialize(message = nil, retry_after: nil)
+        super(message)
+        @retry_after = retry_after
+      end
+    end
 
     BASE_URL = 'https://api.helpscout.net/v2/'
 
@@ -38,10 +45,15 @@ module HelpScout
         when 400 then raise BadRequest, result.body&.dig('validationErrors')
         when 401 then raise NotAuthorized, result.body&.dig('error_description')
         when 404 then raise NotFound, 'Resource Not Found'
-        when 429 then raise ThrottleLimitReached, result.body&.dig('error')
+        when 429 then raise ThrottleLimitReached.new(result.body&.dig('error'), retry_after: retry_after(result))
         else raise InternalError, result.body
         end
       end
+    end
+
+    def retry_after(result)
+      value = result.headers && result.headers['Retry-After']
+      value && Integer(value, exception: false)
     end
 
     def new_connection
