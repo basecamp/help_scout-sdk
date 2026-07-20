@@ -1,0 +1,21 @@
+lib/help_scout/api.rb
+  s_9872418ca62c51::t_682568f37d6fe6 48
+  s_9872418ca62c51::t_5cb325e7306d31 54-58
+  s_9872418ca62c51::t_b604aa4d881ed2 9-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "9d9263a09b601d1db1ba82e46422f3c0b6f808e5",
+  "prompts": {},
+  "sessions": {
+    "s_9872418ca62c51": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "593c4065-415c-481c-855a-917cf548abe0",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Jeremy Daer <jeremy@37signals.com>"
+    }
+  }
+}
