@@ -1,0 +1,22 @@
+lib/help_scout/api/client.rb
+  2bf77cf6a4ed3ae6 33-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.12",
+  "base_commit_sha": "3f5f100717e478b74aabe2220e535e071d440d1f",
+  "prompts": {
+    "2bf77cf6a4ed3ae6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1bb8e35c-0cc9-4d37-b590-fb08f44279fe",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Jeremy Daer <jeremy@37signals.com>",
+      "total_additions": 2,
+      "total_deletions": 0,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  }
+}
